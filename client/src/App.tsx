@@ -27,9 +27,9 @@ function App() {
 
     try {
       setLoading(true);
-
+      const API_URL = import.meta.env.VITE_API_URL;
       const response = await axios.post<Result>(
-        "http://localhost:5000/api/upload",
+        `${API_URL}/api/upload`,
         formData,
         {
           headers: {
