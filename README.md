@@ -234,21 +234,21 @@ The ATS score is calculated using a custom rule-based evaluation instead of rely
 
 |-----------|--------|
 
-| Contact Information | 10 |
+| Contact Information = 10 |
 
-| Education | 10 |
+| Education = 10 |
 
-| Technical Skills | 20 |
+| Technical Skills = 20 |
 
-| Projects | 20 |
+| Projects = 20 |
 
-| Experience | 15 |
+| Experience = 15 |
 
-| GitHub \& LinkedIn | 10 |
+| GitHub \& LinkedIn = 10 |
 
-| Certifications | 5 |
+| Certifications = 5 |
 
-| Resume Quality (Action Verbs) | 10 |
+| Resume Quality (Action Verbs) = 10 |
 
 | \*\*Total\*\* | \*\*100\*\* |
 
