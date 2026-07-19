@@ -39,13 +39,20 @@ function App() {
       );
 
       setResult(response.data);
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
-      alert("Upload failed.");
+
+      if (error.response) {
+        console.log("Status:", error.response.status);
+        console.log("Data:", error.response.data);
+
+        alert(error.response.data.message || "Upload failed");
+      } else {
+        alert(error.message);
+      }
     } finally {
       setLoading(false);
     }
-  };
 
   return (
   <div className="container">
@@ -119,5 +126,5 @@ function App() {
   </div>
 );
 }
-
+}
 export default App;
